@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercise 04</title>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap 5.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"
+    defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"
+    defer></script>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/main.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid p-0">
+    <div class="row gx-md-5 m-4">
+      <div class="col col-sm-12 col-md-4 p-1">
+        <aside class="cards">
+          <div class="cards__item">
+            <img src="./assets/images/avatar/avatar_hat.jpg" alt="avatar hat" />
+            <h1>Thạch Thành Thật</h1>
+          </div>
+
+          <ul class="cards__item">
+            <li>
+              <i class="fa fa-briefcase fa-fw"></i><span>Web Developer</span>
+            </li>
+            <li><i class="fa fa-home fa-fw"></i><span>Viet Nam</span></li>
+            <li>
+              <i class="fa fa-envelope fa-fw"></i><span>that1995@gmail.com</span>
+            </li>
+            <li>
+              <i class="fa fa-phone fa-fw"></i><span>0559-393-321</span>
+            </li>
+          </ul>
+
+          <hr class="cards-seperate" />
+
+          <div class="cards-block">
+            <h2 class="cards-block__heading">
+              <i class="fa fa-asterisk fa-fw"></i> Skills
+            </h2>
+
+            <div class="cards-block-body">
+              <div class="cards-block-body-item">
+                <h3>Adobe Photoshop</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-90)">
+                    90%
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-block-body-item">
+                <h3>Photography</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-80)">
+                    80%
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-block-body-item">
+                <h3>Illustrator</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-75)">
+                    75%
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-block-body-item">
+                <h3>Media</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-50)">
+                    50%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-block">
+            <h2 class="cards-block__heading">
+              <i class="fa fa-globe fa-fw"></i> Languages
+            </h2>
+
+            <div class="cards-block-body">
+              <div class="cards-block-body-item">
+                <h3>English</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-90)">
+                    90%
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-block-body-item">
+                <h3>Spanish</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-80)">
+                    80%
+                  </div>
+                </div>
+              </div>
+
+              <div class="cards-block-body-item">
+                <h3>German</h3>
+                <div class="cards-block-body-item-bar">
+                  <div class="cards-block-body-item-bar__progress" style="width: var(--percent-75)">
+                    75%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- content right -->
+      <div class="col col-sm-12 col-md-8 pe-md-1 ps-md-4 pt-md-1 ps-sm-1 pe-sm-1 pt-sm-4 ps-1 pe-1 pt-4">
+        <div class="row gy-4">
+          <div class="col col-sm-12 col-lg-12">
+            <div class="cards-main p-5">
+              <h2 class="cards-main__title">
+                <i class="fa fa-suitcase fa-fw me-3"></i> Work Experience
+              </h2>
+
+              <div class="cards-main-body mt-5 ms-4">
+                <div class="cards-main-body-item mb-4 mt-5">
+                  <h3 class="cards-main-body-item__sub-title">
+                    Front End Developer / w3schools.com
+                  </h3>
+                  <p class="cards-main-body-item__date my-4">
+                    <i class="fa-regular fa-calendar-days me-4"></i>
+                    Jan 2015 - <span class="px-2">Current</span>
+                  </p>
+
+                  <p class="cards-main-body-item__desc">
+                    Lorem ipsum dolor sit amet. Praesentium magnam consectetur
+                    vel in deserunt aspernatur est reprehenderit sunt hic.
+                    Nulla tempora soluta ea et odio, unde doloremque
+                    repellendus iure, iste.
+                  </p>
+                </div>
+
+                <hr class="cards-main-seperate" />
+
+                <div class="cards-main-body-item mb-4 mt-5">
+                  <h3 class="cards-main-body-item__sub-title">
+                    Web Developer / something.com
+                  </h3>
+                  <p class="cards-main-body-item__date my-4">
+                    <i class="fa-regular fa-calendar-days me-4"></i>
+                    Mar 2012 - Dec 2014
+                  </p>
+
+                  <p class="cards-main-body-item__desc">
+                    Lorem ipsum dolor sit amet. Praesentium magnam consectetur
+                    vel in deserunt aspernatur est reprehenderit sunt hic.
+                    Nulla tempora soluta ea et odio, unde doloremque
+                    repellendus iure, iste.
+                  </p>
+                </div>
+
+                <hr class="cards-main-seperate" />
+
+                <div class="cards-main-body-item mb-4 mt-5">
+                  <h3 class="cards-main-body-item__sub-title">
+                    Graphic Designer / designsomething.com
+                  </h3>
+                  <p class="cards-main-body-item__date my-4">
+                    <i class="fa-regular fa-calendar-days me-4"></i>
+                    Jun 2010 - Mar 2012
+                  </p>
+
+                  <p class="cards-main-body-item__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-12 col-lg-12">
+            <div class="cards-main p-5">
+              <h2 class="cards-main__title">
+                <i class="fa fa-certificate fa-fw"></i> Education
+              </h2>
+
+              <div class="cards-main-body mt-5 ms-4">
+                <div class="cards-main-body-item mb-4 mt-5">
+                  <h3 class="cards-main-body-item__sub-title">
+                    W3Schools.com
+                  </h3>
+                  <p class="cards-main-body-item__date my-4">
+                    <i class="fa-regular fa-calendar-days me-4"></i>
+                    Forever
+                  </p>
+
+                  <p class="cards-main-body-item__desc">
+                    Web Development! All I need to know in one place
+                  </p>
+                </div>
+
+                <hr class="cards-main-seperate" />
+
+                <div class="cards-main-body-item mb-4 mt-5">
+                  <h3 class="cards-main-body-item__sub-title">
+                    London Business School
+                  </h3>
+                  <p class="cards-main-body-item__date my-4">
+                    <i class="fa-regular fa-calendar-days me-4"></i>
+                    2013 - 2015
+                  </p>
+
+                  <p class="cards-main-body-item__desc">Master Degree</p>
+                </div>
+
+                <hr class="cards-main-seperate" />
+
+                <div class="cards-main-body-item mb-4 mt-5">
+                  <h3 class="cards-main-body-item__sub-title">
+                    School of Coding
+                  </h3>
+                  <p class="cards-main-body-item__date my-4">
+                    <i class="fa-regular fa-calendar-days me-4"></i>
+                    2010 - 2013
+                  </p>
+
+                  <p class="cards-main-body-item__desc">Bachelor Degree</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-0">
+    <div class="row gx-0">
+      <div class="col col-lg-12">
+        <footer class="footer">
+          <p>Find me on social media.</p>
+          <div class="footer__social">
+            <a href="#"> <i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <p>Powered by <a href="https://github.com/thanhthat" target="_blank">ThanhThat</a></p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
